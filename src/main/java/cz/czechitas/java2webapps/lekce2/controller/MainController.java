@@ -45,4 +45,19 @@ public class MainController {
     //addObject() jako model.
     return result;
   }
+  /**
+   * Hod dvanáctistěnem. Protože nemáme pro dvanáctistěn obrázky, budeme hod zobrazovat na jedné nebo dvou kostkách. Když bude hozeno více než 6, zobrazí se druhá kostka.
+   */
+
+  @GetMapping("/dvanactisten")
+  public ModelAndView dvanactisten() {
+    int nahodneCislo = random.nextInt(12) + 1;
+
+    ModelAndView result = new ModelAndView("dvanactisten");
+
+    result.addObject("cislo", nahodneCislo);
+    result.addObject("kostka1", nahodneCislo <= 6 ? nahodneCislo : 6);
+    result.addObject("kostka2", nahodneCislo - 6);
+    return result;
+  }
 }
