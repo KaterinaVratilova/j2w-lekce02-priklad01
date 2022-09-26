@@ -14,4 +14,4 @@ zdrojích v adresáři `static/images`.
 1. Zkontroluj výsledek v prohlížeči – při každém načtení stránky by se mělo zobrazit náhodné číslo mezi 1 a 6 a příslušný obrázek kostky.
 
 ## Mohlo by se hodit
-* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2021-jaro/java-2/lekce-2.html)
+* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2022-podzim/java-2-online/lekce-2.html)
