@@ -29,7 +29,7 @@ public class MainController {
     //Dej mi „další“ náhodné celé číslo, v rozsahu 0 (včetně) až 6 (mimo), tedy 0–5. Po přičtení jedničky dostávám klasický rozsah hrací kostky 1–6.
     int nahodneCislo = random.nextInt(6) + 1;
 
-    //Vytvořím objekt sdružující model a informace o použitém view. Jako view použiju „kostka“ – požije se tedy šablona „kostka.html“ přímo z adresáře
+    //Vytvořím objekt sdružující model a informace o použitém view. Jako view použiju „kostka“ – požije se tedy šablona „kostka.ftlh“ přímo z adresáře
     //„src/main/resources/templates.
     ModelAndView result = new ModelAndView("kostka");
 
